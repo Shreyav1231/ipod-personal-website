@@ -1,0 +1,158 @@
+
+*{
+    position: relative;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+body {
+    background-color: rgba(255, 225, 0, 0.829);
+}
+
+
+h1 {
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 3em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.025em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.i-pod{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 30em;
+    width: 18em;
+    border-radius: 1em;
+    background-color: rgb(54, 53, 53);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.142), 0 6px 20px 0 rgba(0, 0, 0, 0.425);
+}
+
+.screen {
+    margin-top: 2em;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    width: 16em;
+    height: 12em;
+    align-self: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color:rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 170, 0);
+    border-radius: 1rem;
+    border: .5rem solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+}
+
+
+.circular-navigation {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color as needed */
+}
+
+
+.nav-button {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.nav-button:hover {
+    color: #ffffff93;
+}
+
+#button-menu {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-90%);
+}
+
+#button-forward {
+    top: 50%;
+    left: 90%;
+    transform: translate(-80%, -50%);
+}
+
+#button-pause {
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#button-rewind {
+    top: 50%;
+    left: 10%;
+    transform: translate(-20%, -50%);
+}
+
+.scene {
+    color: #FFF;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scene button {
+    width: 100%;
+    border: none;
+    margin-bottom: 3px;
+    background-color: transparent;
+    color: white;
+}
+
+.scene button:hover {
+    background-color: rgb(95, 95, 251);
+}
+
+.now-playing {
+    background-color: rgb(95, 95, 251);
+}
+
+.socials {
+    margin-top: 5em;
+    display: flex;
+    gap: 8em;
+}
+
+
+
+#scene-4 a {
+    color: white;
+    text-decoration: none;
+}
+
+#scene-4 a:visited {
+    color: white;
+}
